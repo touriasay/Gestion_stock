@@ -12,8 +12,7 @@ public class ConnexionMysql {
 			
 			
 		}catch(ClassNotFoundException | SQLException e) {
-			System.out.println("connexion echouee hhhhhhhh");
-			System.out.println("connexion echouee hhhhhhhh");
+			System.out.println("connexion echouee");
 			e.printStackTrace();
 			return null;
 		}
