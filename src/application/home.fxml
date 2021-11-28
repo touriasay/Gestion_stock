@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="600.0" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="132.0">
+               <image>
+                  <Image url="@img/logo.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+         </children></HBox>
+   </top>
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="367.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Bienvenu NAME">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="125.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" prefWidth="120.0" style="-fx-background-color: #3498DB; -fx-border-radius: 10.0" text="Article" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="130.0" top="30.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefWidth="120.0" style="-fx-background-color: #3498DB;" text="Commande" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="130.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefWidth="120.0" style="-fx-background-color: #3498DB;" text="Fournisseur" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="130.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefWidth="120.0" style="-fx-background-color: #3498DB;" text="Facture" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="130.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefWidth="120.0" style="-fx-background-color: #E74C3C;" text="Déconnexion" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="130.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="47.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="43.0" prefWidth="82.0" text="Heure Date">
+               <HBox.margin>
+                  <Insets left="3.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

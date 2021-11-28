@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.VBox {
+	-fx-border-radius: 15.0; 
+}
+
+.Button {
+	-fx-border-radius: 5.0;
+}
