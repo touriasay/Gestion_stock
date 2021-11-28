@@ -7,12 +7,13 @@ public class ConnexionMysql {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gestock","root","");
-			System.out.println("connexion réussie");
+			System.out.println("connexion rï¿½ussie");
 			return conn;
 			
 			
 		}catch(ClassNotFoundException | SQLException e) {
-			System.out.println("connexion echouee");
+			System.out.println("connexion echouee hhhhhhhh");
+			System.out.println("connexion echouee hhhhhhhh");
 			e.printStackTrace();
 			return null;
 		}

@@ -20,7 +20,7 @@ public class Main extends Application {
 		stage.initStyle(StageStyle.DECORATED);
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
-		//stage.setTitle("GeStock");
+		//stage.setTitle("GeStosckk");
 		stage.show();
 	}
 	
